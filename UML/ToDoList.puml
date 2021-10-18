@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class ToDoList
+{
+    +String itemDescription
+    +String itemDueDate
+    +String listTitle
+
+    +addItem(): String
+    +deleteItem(): String
+    +editItem(): String
+    +markItem(): String
+    +addList(): String
+    +deleteList(): String
+    +editList(): String
+    +switchView(): String
+    +saveList(): String
+    +saveAllLists(): String
+    +loadList(): String
+    +loadAllLists(): String
+    +sortList(): String
+}
+@enduml

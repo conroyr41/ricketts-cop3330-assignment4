@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Controller
+{
+    'this class will simply handle the back-end logic of the GUI and utilize the ToDoList class
+    'please refer to ToDoList.puml
+
+    -ToDoList list
+}
+@enduml
